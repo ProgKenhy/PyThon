@@ -18,7 +18,7 @@ maxSpaces = Number_of_spaces(P, N - 1)
 for i in range(N):
     print(" " * (maxSpaces - Number_of_spaces(P, i)), end='')
     for j in range(i + 1):
-        if (P[i][j]%2==1):
+        if P[i][j]%2==1:
             print('*', " ", sep='', end="")
         else:
             print(' ', " ", sep='', end="")
