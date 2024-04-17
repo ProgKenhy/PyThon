@@ -5,6 +5,7 @@ with open ('input.txt', encoding='ansi') as inputFile_, \
 open('oldest.txt', 'w') as outFileForOldest_, \
 open('youngest.txt', 'w') as outFileForYoungest_  :
 	lines = [line.rstrip() for line in inputFile_]
+	print(lines)
 	maxAge, minAge = 0, 1000
 	for i in lines:
 		*FullName, age = str(i).split()
