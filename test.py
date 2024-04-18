@@ -144,5 +144,3 @@
 # print(sqr(4))
 # print(help(sqr))
 
-
-import math
